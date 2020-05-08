@@ -1,0 +1,107 @@
+html {
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab.eot?#iefix') format('embedded-opentype'),  url('../fonts/RobotoSlab.woff') format('woff'), url('../fonts/RobotoSlab.ttf')  format('truetype'), url('../fonts/RobotoSlab.svg#Roboto-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: left top;
+  z-index:10;
+}
+
+.fonn {
+  z-index:10;
+ }
+
+.picfon {
+  position: absolute;
+  left:-7px;
+  top:-17px;
+  z-index: 0;
+  width:105%;
+}
+
+.slaj {
+  position: absolute;
+  left:1px;
+  top:1px;
+  z-index: 1;
+}
+
+h1 {
+  margin-bottom:50px;
+  font-family: Helvetica, sans-serif;
+  color:grey;
+}
+
+.slajder {
+  margin-bottom: 150px;
+  margin-top:68px;
+
+
+  p {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: em(26);
+    text-transform: uppercase;
+  }
+}
+
+.secondpartstyle {
+
+  .classCode {
+    width:22%;
+    margin: 0 auto;
+    margin-top:150px;
+  }
+  .classAppstore {
+    width:50%;
+    margin: 0 auto;
+    margin-top:50px;
+    border:1px solid grey;
+    border-radius:5px;
+  }
+
+  .btnclass {
+    display:block;
+    width:45%;
+    padding:5px 5px;
+    font-size:2em;
+    margin: 0 auto;
+    margin-top:50px;
+    border:3px solid black;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+  }
+}
+
+.ssilki {
+
+  li {
+    padding: 5px 5px;
+  }
+
+  li:last-child {
+    padding-left: 10px;
+    border-left: 2px solid black;
+  }
+
+
+  a {
+    font-size:1em;
+  }
+}
+
+.kopirajt {
+  font-size: 1em;
+  margin-bottom:50px;
+}
